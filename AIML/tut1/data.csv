@@ -1,0 +1,14 @@
+Date,Year,Locality,Estimated Value,Sale Price,Property,Residential,num_rooms,num_bathrooms,carpet_area,property_tax_rate,Face
+2009-01-02,2009,Waterbury,111440,185000,Single Family,Detached House,3,3,996,1.025953,South
+2009-01-02,2009,Bridgeport,124670,150000,Two Family,Duplex,4,3,1241,1.025953,South
+2009-01-02,2009,Waterbury,55720,140000,Single Family,Detached House,3,2,910,1.025953,South
+2009-01-02,2009,Bridgeport,4775276,272900,Single Family,Detached House,3,1,971,1.025953,East
+2009-01-02,2009,Bridgeport,112351,210000,?,Detached House,3,2,1092,1.025953,East
+2009-01-02,2009,Greenwich,2868880,3300000,Single Family,Detached House,3,1,1039,1.025953,North
+2009-01-02,2009,Norwalk,571060,1000000,Single Family,Detached House,3,2,,1.025953,South
+2009-01-02,2009,Greenwich,592760,920000,Single Family,Detached House,3,3,937,1.025953,North
+2009-01-02,2009,,603540,1680000,Single Family,Detached House,3,1,1039,1.025953,East
+2009-01-02,2009,Bridgeport,137901,245000,Single Family,Detached House,3,1,956,1.025953,West
+2009-01-03,2009,Bridgeport,122150,256500,Single Family,Detached House,3,1,926,1.025953,South
+2009-01-03,2009,Norwalk,,1340000,Single Family,Detached House,3,1,936,1.025953,North
+2009-01-03,2009,Bridgeport,103950,310000,Single Family,Detached House,3,2,997,1.025953,East

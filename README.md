@@ -3,4 +3,11 @@
 #### 1st Sem Labs
 - ADSA Lab
 - Machine Learning with Python Lab
-- AI and ML Lab
+- AIML Lab
+
+#### 1st Sem Subjects
+- ADSA
+- ANN
+- NLP
+- AIML
+- DIA
