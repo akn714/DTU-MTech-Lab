@@ -1,0 +1,6 @@
+- Regression
+- Linear Regression
+- Logistic Regression
+- Cross product
+- Loss and Cost
+- GRU
