@@ -1,8 +1,8 @@
 /*
 LAB 1: Linear and Binary Search
 
-Experiment 1: Upper and Lower Bound
-Experiment 2: First and Last Occurrence
+Problem 1: Upper and Lower Bound
+Problem 2: First and Last Occurrence
 */
 
 
