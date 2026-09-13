@@ -11,3 +11,7 @@
 - NLP
 - AIML
 - DIA
+
+#### 3rd Sem
+- Subject: ASNS (Advanced Systems and Network Security)
+- Lab: ASNS Lab
