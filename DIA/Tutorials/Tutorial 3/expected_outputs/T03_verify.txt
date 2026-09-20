@@ -1,0 +1,18 @@
+conv2d (ours):
+[[ 1.  6. -3. -4.]
+ [-5. -2. 11. -1.]
+ [ 5.  6.  0. -5.]
+ [ 1. -5. -4. 10.]]
+
+cv2.filter2D:
+[[ 1.  6. -3. -4.]
+ [-5. -2. 11. -1.]
+ [ 5.  6.  0. -5.]
+ [ 1. -5. -4. 10.]]
+
+max |diff| = 0.000000
+
+Note: filter2D computes CORRELATION. It equals our convolution here
+because this kernel is symmetric. Padding note: np.pad(reflect) ==
+cv2.BORDER_REFLECT_101 (edge not repeated). TODO(discussion): find a
+kernel where correlation and convolution disagree.

@@ -1,0 +1,7 @@
+[1] camera: shape (512, 512) dtype uint8 range [0, 255]
+[1] coins : shape (303, 384) | astronaut: shape (512, 512, 3) (3 channels!)
+[2] crop rows 100:200, cols 200:330 -> shape (100, 130); mean 126.0
+[3] sky mean 198.5 vs ground mean 115.0 — which is brighter, and does the image agree?
+[4] +60 brightness: 72087 pixels (27.5%) hit the ceiling and CLIPPED — information gone.
+saved expected_outputs/T01_panel.png
+
