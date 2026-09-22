@@ -1,6 +1,17 @@
 # Text Preprocessing
 
-**Preprocessing is task-dependent.**
+## Preprocessing for specific use cases
+> *Preprocessing is task-dependent.*
+
+| Problem / Data Type | Preprocessing Strategy |
+|---|---|
+| Sentiment analysis (reviews) | Keep negations & punctuation like "!"; handle emojis; light stemming |
+| Search / document indexing | Aggressive lowercasing, stopword removal, and stemming for recall |
+| Machine translation | Minimal preprocessing — preserve word order, case, and punctuation |
+| Structured logs / form data | Field parsing & format standardization, not full tokenization |
+| Social media text | Handle hashtags, mentions, slang, emojis, and heavy misspellings |
+| Legal / medical documents | Preserve domain terms exactly; avoid aggressive stemming |
+
 
 ### Steps:
 1. Text Cleaning
@@ -14,7 +25,7 @@
 9. Stemming
 10. Lemmatization
 11. Numbers & Dates Handling
-12. POS Tagging & NER
+12. POS Tagging & NER (Named Entity Recognition)
 
 ---
 
@@ -93,4 +104,3 @@ Hawaii → proper noun
 **POS v/s NER:**<br>
 - POS asks: What grammatical role does this word play?
 - NER asks: Does this text refer to a real-world entity? If yes, what type?
-

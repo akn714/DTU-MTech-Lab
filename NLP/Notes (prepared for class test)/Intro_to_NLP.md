@@ -6,12 +6,27 @@ Morphology (structure of words, unhappy -> un + happy)
    ↓
 Syntax (grammer/sentence structure)
    ↓
-Semantics (literl meaning)
+Semantics (literal meaning)
    ↓
 Discourse (language units larger than a single sentence, such as paragraphs, conversations, or entire documents)
    ↓
 Pragmatics (the study of how context contributes to the meaning)
 ```
+
+### Ambiguities in NLP
+- Lexical Ambiguity: "Bank", a river bank or financial bank.
+- Syntatic Ambiguity: "I saw a man with a telescope", who has the telescope.
+- Referencial Ambiguity: "The trophy didn't fit in the suitcase because it was too big", what is 'it'?
+- Contexual / Pragmatic: "Can you pass the salt" is a request, not a question about ability.
+
+### Challenges in NLP
+- Ambiguity
+- Irony, Sarcasm & Tone
+- Creativity: poem, scripts, etc. bend and break normal grammer rules.
+- Synonyms: Many words have same meaning but differ in tone and formality
+- Contextual words: “I ran to the store because we ran out of milk.”, same word, two meanings.
+- Slangs: "Piece of cake", "Pulling your leg", meaning isn't literal
+
 
 ### NLP Pipeline
 ```
@@ -21,11 +36,11 @@ Pragmatics (the study of how context contributes to the meaning)
           ↓
 Stemming/Lemmatization
           ↓
-     POS Tagging
+POS Tagging (Verb, Noun, etc.)
           ↓
        Parsing
           ↓
-         NER
+NER (Named Entity Recognition: Place, Name, etc.)
 ```
 
 ### Approaches to NLP
