@@ -18,7 +18,7 @@
 (Characters are replaced with other characters)
 - Caesar Cipher - Shift each letter by a fixed amount
 - Playfair Cipher
-- [Hill Cipher](HillCipher.md) ([code](HillCipher.java))
+- [Hill Cipher](HillCipher.md) ([code](../Lab/HillCipher.java))
 - Vigenère Cipher
 - Vernam Cipher
 
@@ -52,13 +52,13 @@ range of cipher key = 'SECRETABCDEFGHIJKLMNOPQRSTUVWXYZ'
 - Different row & column: form a rectangle and swap columns.
 - For decryption, reverse: left, up, rectangle.
 
-![Playfair Cipher](playfair_cipher.png)
+![Playfair Cipher](images/playfair_cipher.png)
 
 ### Vigenere Cipher
 - `len(plain text) > len(key)`
 - In the below image key = `KEY`
 
-![vigenere_cipher](vigenere_cipher.png)
+![vigenere_cipher](images/vigenere_cipher.png)
 
 ### Vernam Cipher
 - Same as Vigenere Cipher but `len(plain text) == len(key)`
@@ -71,10 +71,10 @@ range of cipher key = 'SECRETABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ### Rail Fence Cipher
 - In the below image, no. of rows = 3
 
-![rail fence cipher](rail_fence_cipher.png)
+![rail fence cipher](images/rail_fence_cipher.png)
 
 ### Column Transposition Cipher
-![column_transposition_cipher](column_transposition_cipher.png)
+![column_transposition_cipher](images/column_transposition_cipher.png)
 
 ## Cryptanalysis
 - It means trying to break a cryptographic system without knowing the secret key.

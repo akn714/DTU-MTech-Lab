@@ -126,7 +126,7 @@ Counter 3 → Encrypt → Keystream → XOR → P3
     ```
     - 4. Collision Resistance: It should be difficult to find any two different messages having the same hash.
     
-![sha1](sha1.png)
+![sha1](images/sha1.png)
 
 
 ## HMAC

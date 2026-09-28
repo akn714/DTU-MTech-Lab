@@ -28,7 +28,7 @@ Where:
 - Kᵢ = round key
 - F = round function
 
-![feistel structure](feistel_structure.png)
+![feistel structure](images/feistel_structure.png)
 
 
 ### DES: Data Encryption Standard
@@ -59,4 +59,4 @@ Left shifts
        ↓
 48-bit Round Key
 ```
-![key generation in DES](key_generation_in_DES.png)
+![key generation in DES](images/key_generation_in_DES.png)
