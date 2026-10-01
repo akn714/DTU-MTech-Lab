@@ -114,8 +114,12 @@ W(new) = W(old) - η (dE/dW(old))
 
 # Regularization
 - **Regularized Loss = Original Loss + Penalty**
-- L1 Regularization: Lasso Regularization
-- L1 Regularization: Ridge Regularization
+- L1 Regularization:
+    - Lasso Regularization
+    - λ (Lambda) (panelty term): weight decay
+- L1 Regularization:
+    - Ridge Regularization
+    - α (Alpha) (panelty term): scaling factor
 
 ![regularization](regularization.png)
 ![L1 Regularization](l1_regularization.png)
