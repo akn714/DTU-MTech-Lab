@@ -10,3 +10,6 @@
 
 ### Lab 3
 5. Implement the RSA public key Encryption and Decryption process, including key generation ([Implementation](RSA.java))
+
+### Lab 4
+6. Implement Diffie-Hellman Key Exchange Algorithm ([Implementation](DiffieHellman.java))
