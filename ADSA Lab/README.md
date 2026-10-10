@@ -13,14 +13,16 @@
     - [ ] [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/description/)
 - Experiment 4:
     - Part 1:
-        - [ ] LeetCode: 1584. Min Cost to Connect All Points — core MST problem, solvable with Prim's or
-        Kruskal's algorithm.
-        - [ ] LeetCode: 1319. Number of Operations to Make Network Connected — Union-Find practice
-        closely related to Kruskal's algorithm.
-        - [ ] LeetCode: 1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree — advanced
-        MST analysis built on Kruskal's algorithm.
+        - [ ] [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
+            - solvable Prim's or Kruskal's algorithm.
+        - [ ] [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/)
+            - Union-Find practice closely related to Kruskal's algorithm.
+        - [ ] [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/)
+            - advanced MST analysis built on Kruskal's algorithm.
     - Part 2:
-        - [ ] LeetCode: 743. Network Delay Time - classic Dijkstra's algorithm application.
-        - [ ] LeetCode: 1631. Path With Minimum Effort - Dijkstra's algorithm with a priority queue over path cost.
-        - [ ] LeetCode: 1976. Number of Ways to Arrive at Destination - Dijkstra's algorithm combined with
-        shortest-path counting.
+        - [ ] [743. Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)
+            - classic Dijkstra's algorithm application.
+        - [ ] [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/description/)
+            - Dijkstra's algorithm with a priority queue over path cost.
+        - [ ] [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/)
+            - Dijkstra's algorithm combined with shortest-path counting.

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Experiment2 {
+public class NumberOfProvinces {
     public static void main(String[] args) {
         int[][] isConnected = {{1,1,0},{1,1,0},{0,0,1}};
         Solution solution = new Solution();
