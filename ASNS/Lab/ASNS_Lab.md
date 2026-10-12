@@ -13,3 +13,6 @@
 
 ### Lab 4
 6. Implement Diffie-Hellman Key Exchange Algorithm ([Implementation](DiffieHellman.java))
+
+### Lab 5
+7. Write a program to implement Digital Signature Standard (DSS) using RSA based signature schema ([Implementation](DSSUsingRSA.java))

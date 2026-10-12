@@ -16,7 +16,7 @@ public class PlayfairCipher {
 
         String cipherText = genCipher(plainText, mat);
 
-        System.out.println(cipherText);
+        System.out.println("Cipher Text: " + cipherText);
     }
 
     public static String genCipher(String plainText, String[][] mat) {

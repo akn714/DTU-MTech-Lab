@@ -5,8 +5,8 @@ public class CaeserCipher {
 
         String ciphertext = encrypt(plaintext, key);
 
-        System.out.println(ciphertext);
-        System.out.println(decrypt(ciphertext, key));
+        System.out.println("Cipher Text: " + ciphertext);
+        System.out.println("Plain Text: " + decrypt(ciphertext, key));
     }
 
     static String encrypt(String pt, int key) {
