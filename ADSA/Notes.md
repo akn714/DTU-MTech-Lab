@@ -6,6 +6,9 @@
 
 ![recurrance relation solution using masters theorem](recurrance_relation_solution_using_masters_theorem.png)
 
+![Masters Theorem](masters_theorem.png)
+![Masters Theorem](masters_theorem2.png)
+
 
 # Graphs
 - An **Articulation Point** of a graph is a vertex whoes removal disconnects the graph.
