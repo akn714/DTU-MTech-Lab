@@ -5,3 +5,4 @@
 - **Lab Assignment 4 (28-8-2026):** To implement the linear regression model on the Boston Housing dataset to predict housing prices.
 - **Lab Assignment 5 (18-9-2026):** To implement the Logistic Regression algorithm to predict heart disease occurrence.
 - **Lab Assignment 6 (9-10-2026):** To implement a Decision Tree Regressor to predict continuous house values using the Standard California Housing dataset.
+- **Lab Assignment 7**: Implementing a NN from scratch (without backpropogation)
