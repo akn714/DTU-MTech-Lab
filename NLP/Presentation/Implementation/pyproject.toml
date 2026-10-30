@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcllm"
+version = "0.1.0"
+description = "Reproduction of 'Text Classification in the LLM Era - Where do we stand?' (arXiv:2502.11830)"
+requires-python = ">=3.10"
+
+# Editable install makes `import tcllm` work from anywhere, including Colab:
+#   python -m pip install -e .
+# Not required — scripts/ bootstrap sys.path on their own — but convenient.
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,29 @@
+# Core dependencies — Phase 1 (data foundation) and Phase 2 (logistic-regression
+# baseline). Versions pinned to the verified local Windows environment
+# (Python 3.13.7, CPU-only PyTorch).
+#
+#   python -m pip install -r requirements.txt
+#
+# GPU work does NOT use this file — see requirements-colab.txt.
+
+# --- data loading / io ---
+datasets==4.8.5
+huggingface-hub==0.36.0
+PyYAML==6.0.3
+pandas==2.3.3
+numpy==2.2.6
+
+# --- classical ML and metrics ---
+scikit-learn==1.7.2
+
+# --- figures / tables for the report ---
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# --- progress reporting ---
+tqdm==4.67.1
+
+# --- deep learning. The CPU build is intentional: this laptop has no NVIDIA GPU.
+#     On Colab, do NOT install these from here — Colab ships a CUDA build already.
+torch==2.11.0
+transformers==4.57.6

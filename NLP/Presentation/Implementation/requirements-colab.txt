@@ -1,0 +1,29 @@
+# GPU dependencies for Google Colab. Install these ALONGSIDE the core stack,
+# never instead of it:
+#
+#   !pip install -q -r requirements.txt -r requirements-colab.txt
+#
+# WARNING: do not add torch here. Colab preinstalls a CUDA build of PyTorch;
+# installing torch from a plain requirement silently replaces it with a CPU-only
+# wheel and every GPU experiment then runs (very slowly) on CPU.
+
+# --- embeddings for the logistic-regression baseline, and the FastFit base encoder.
+#     Paper uses sentence-transformers/paraphrase-multilingual-mpnet-base-v2.
+sentence-transformers
+
+# --- few-shot fine-tuning (paper's main few-shot method).
+setfit
+
+# --- Qwen2.5-7B supervised fine-tuning with QLoRA on a 16 GB T4.
+accelerate
+peft
+trl
+bitsandbytes
+
+# --- tokenizers for the multilingual models above.
+sentencepiece
+protobuf
+
+# --- open-LLM inference for zero-shot prompting and synthetic-data generation.
+#     A quantised 7B fits a T4 in 4-bit; fp16 does not fit comfortably.
+#     (Locally the same models are served by Ollama — see README.)
