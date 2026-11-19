@@ -105,7 +105,7 @@ how finely this range is divided
 - Converting continuous spatial information into discrete 
 pixels.
 
-![Sampling](images/sampling.png)
+![Sampling](../images/sampling.png)
 
 ### Sampling Frequency
 - This tells how many samples are taken per unit distance.
@@ -122,7 +122,7 @@ pixels.
 ### Moire Pattern
 - It is a visible false pattern produced when repetitive fine structures interact with insufficient sampling.
 
-![moire pattern](images/moire_pattern.png)
+![moire pattern](../images/moire_pattern.png)
 
 ### Downsampling
 - Original Image (4000x4000) -> Downsampled image (1000x1000)
@@ -136,8 +136,8 @@ High-resolution image -> Anti-alias filter -> Downsample -> Low-resolution image
 #### Sampling and Quantisation
 - Digitizing = Sampling + Quantisation
 
-![digitizing1](images/digitizing1.png)
-![digitizing2](images/digitizing2.png)
+![digitizing1](../images/digitizing1.png)
+![digitizing2](../images/digitizing2.png)
 
 ### Aliasing and Quantization
 |                     | Aliasing                            | Quantisation                       |
@@ -153,7 +153,7 @@ High-resolution image -> Anti-alias filter -> Downsample -> Low-resolution image
 - **The Problem:** When you compress an image or lower its bit-depth, you get harsh color transitions called color banding.
 - **The Solution:** Dithering intentionally introduces strategic visual noise or pixel patterns. By scattering pixels of available colors right next to each other, it tricks the human eye into blending them into a smooth gradient or a completely new color.
 
-![dithering and banding](images/dithering_and_banding.png)
+![dithering and banding](../images/dithering_and_banding.png)
 
 ### Spatial Resolution, Intensity Resolution and Dynamic Range
 - Spatial resolution

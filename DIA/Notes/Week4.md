@@ -1,23 +1,23 @@
 ### Gaussian Noise
 - Use Gaussian Filter to fix
 
-![gaussian noise](images/gaussian_noise.png)
+![gaussian noise](../images/gaussian_noise.png)
 
 ### Salt and Pepper Noise
 - Use Median Filter to fix
 
-![salt and pepper noise](images/salt_and_pepper_noise.png)
+![salt and pepper noise](../images/salt_and_pepper_noise.png)
 
 ### Poisson Noise
-![poisson noise](images/poisson_noise.png)
+![poisson noise](../images/poisson_noise.png)
 
 ### Speckle Noise
-![speckle noise](images/speckle_noise.png)
+![speckle noise](../images/speckle_noise.png)
 
 ### Periodic Noise
 - Periodic noise → Fourier spikes → Notch filter
 
-![periodic noise](images/periodic_noise.png)
+![periodic noise](../images/periodic_noise.png)
 
 
 ### Identify the noise using histogram

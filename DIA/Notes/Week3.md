@@ -2,7 +2,7 @@
 - Histogram shows how many pixels occur at each intensity.
 - It doesn't care where a pixel is, only how many pixels have a particular intensity.
 
-![histogram](images/histogram.png)
+![histogram](../images/histogram.png)
 
 ### Normalised Histogram
 - Instead of counting pixels, we count probabilities
@@ -16,7 +16,7 @@ $$ p(r_k)=\frac{n_k}{MN} $$
 - we ask: "How many pixels have intensity ≤ 50?"
 - So CDF keeps adding probabilities as intensity increases.
 
-![cdf](images/cdf.png)
+![cdf](../images/cdf.png)
 
 - Where the histogram has lots of pixels, the CDF rises quickly
 

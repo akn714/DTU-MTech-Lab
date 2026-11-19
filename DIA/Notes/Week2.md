@@ -151,8 +151,8 @@ $$ \boxed{s=c r^\gamma} $$
 - So the image uses more of the available intensity range.
 - **Use:** When you have a known useful intensity range that you want to expand.
 
-![contrast stretching (before)](images/contrast_stretching_before.png)
-![contrast stretching (after)](images/contrast_stretching_after.png)
+![contrast stretching (before)](../images/contrast_stretching_before.png)
+![contrast stretching (after)](../images/contrast_stretching_after.png)
 
 ### Piecewise Linear Contrast Stretch
 - Instead of one formula, different intensity ranges can have different slopes.
@@ -180,7 +180,7 @@ the slope tells you how strongly contrast is changed around that intensity.
 - **Steep slope**
     - small input differences become large output differences
     - detail becomes more visible.
-    ![steep slope](images/steep_slope.png)
+    ![steep slope](../images/steep_slope.png)
 
 - **Flat slope**
     - differences get compressed
