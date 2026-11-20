@@ -5,4 +5,7 @@
 - **Lab Assignment 4 (28-8-2026):** To implement the linear regression model on the Boston Housing dataset to predict housing prices.
 - **Lab Assignment 5 (18-9-2026):** To implement the Logistic Regression algorithm to predict heart disease occurrence.
 - **Lab Assignment 6 (9-10-2026):** To implement a Decision Tree Regressor to predict continuous house values using the Standard California Housing dataset.
-- **Lab Assignment 7**: Implementing a NN from scratch (without backpropogation)
+- **Lab Assignment 7 (23-10-2026)**: Implementing a NN from scratch (without backpropogation)
+- **Lab Assignment 8 (13-11-2026):** To implement the backpropagation algorithm in a neural network for forward propagation, loss calculation, gradient computation, and weight and bias updates.
+- **Lab Assignment 9 (13-11-2026):** To implement feature scaling and feature pruning on the Breast Cancer Wisconsin Diagnostic dataset and analyse their impact on machine learning classification performance.
+- **Lab Assignment 10 (13-11-2026):** To understand and design a Reinforcement Learning-based smart traffic signal management system to minimize vehicle waiting time and traffic congestion.

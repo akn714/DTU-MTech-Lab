@@ -1,3 +1,9 @@
+"""
+EXPERIMENT 3
+
+To implement the A* (A-Star) algorithm for finding the optimal path between start node and goal node in a graph.
+"""
+
 import java.util.*;
 
 public class AStarSearch {

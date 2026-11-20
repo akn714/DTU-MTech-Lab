@@ -1,3 +1,9 @@
+"""
+EXPERIMENT 2
+
+To implement Breadth-First Search (BFS), Depth-First Search (DFS), and Best-First Search algorithms.
+"""
+
 import java.util.Queue;
 import java.util.LinkedList;
 
