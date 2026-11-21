@@ -18,6 +18,7 @@
 
 ### IMP Dates
 - 20/11/26 - ADSA File Check (Internal)
+- 23/11/26 - MLP PPT
 - 27/11/26 - AIML Paper Presentation and Lab File Submission (soft copy)
 
 **Practicals Dates**
