@@ -38,3 +38,5 @@ It consists of three major components:
 1. Point-level reconstruction-discrepancy learning.
 2. Sequence-level reconstruction-discrepancy learning.
 3. Reconstruction-discrepancy-based anomaly scoring.
+
+![no_of_neurons.png](no_of_neurons.png)
